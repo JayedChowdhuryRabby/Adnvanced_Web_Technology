@@ -5,8 +5,8 @@
 <h1>Welcome to product section :</h1>
 
 <h2>Product list</h2>
-@foreach($ProductNames as $n)
-<li>{{$n}}</li>
+@foreach($product as $n)
+<li>{{$n->name}}</li>
 @endforeach
 
 @endsection

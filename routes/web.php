@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [PagesController::class, 'home'])->name('home');
-Route::get('/product', [PagesController::class, 'product'])->name('product');
+Route::get('/product',[PagesController::class,'product'])->name('product'); 
 Route::get('/teams', [PagesController::class, 'teams'])->name('teams');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
